@@ -1,0 +1,13 @@
+test_id,requirement_id,type,priority,scenario,expected_result,status
+TC-001,REQ-001,API,Critical,Valid authentication,Session/token returned,PASS
+TC-002,REQ-001,API,Critical,Invalid authentication,401 returned,PASS
+TC-003,REQ-002,API,Critical,Create valid transaction,201 and transaction ID,PASS
+TC-004,REQ-002,UI,Critical,Submit transaction from UI,Success state displayed,PASS
+TC-005,REQ-003,API,Critical,Repeat same idempotency key,Second request rejected,PASS
+TC-006,REQ-004,API,High,Zero amount,400 returned,PASS
+TC-007,REQ-004,API,High,Negative amount,400 returned,PASS
+TC-008,REQ-005,API,High,Query transaction status,Status returned,PASS
+TC-009,REQ-006,UI,High,Open transaction history,Transactions displayed,PASS
+TC-010,REQ-006,UI,High,Refresh transaction history,Latest state displayed,PASS
+TC-011,REQ-007,API,Medium,Malformed payload,Structured validation error,PASS
+TC-012,REQ-008,Release,Medium,Execute rollback checklist,Rollback evidence recorded,NOT RUN

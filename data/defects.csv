@@ -1,0 +1,7 @@
+defect_id,severity,priority,status,area,found_in,root_cause,release_leakage,age_days
+DEF-001,Critical,P1,Closed,Transactions,Regression,Idempotency validation,No,2
+DEF-002,High,P1,Closed,Transactions,Integration,Boundary validation,No,3
+DEF-003,High,P1,Open,UI,Regression,State refresh,No,1
+DEF-004,Medium,P2,Closed,API,Integration,Error mapping,No,4
+DEF-005,Low,P3,Closed,UI,System,Copy mismatch,Yes,7
+DEF-006,High,P1,Closed,Transactions,Production,Concurrency defect,Yes,12

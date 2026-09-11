@@ -1,0 +1,7 @@
+metric,value,target,pass
+requirements_critical_coverage,100,100,True
+api_pass_rate,100,95,True
+ui_critical_path_pass_rate,100,100,True
+open_critical_defects,0,0,True
+open_high_defects,1,0,False
+production_readiness,100,100,True

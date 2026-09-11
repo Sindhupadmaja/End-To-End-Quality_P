@@ -1,0 +1,9 @@
+requirement_id,priority,requirement,acceptance_criteria,risk_area
+REQ-001,Critical,User can authenticate securely,Valid credentials create a session; invalid credentials are rejected,Security
+REQ-002,Critical,User can create a transaction,Valid transaction is accepted and receives transaction ID,Financial integrity
+REQ-003,Critical,Duplicate transaction requests are prevented,Same idempotency key cannot create two transactions,Financial integrity
+REQ-004,High,Transaction amount must be positive,Zero and negative amounts are rejected,Validation
+REQ-005,High,Transaction status is queryable,Valid transaction ID returns current status,Observability
+REQ-006,High,User can review recent transactions,UI displays transaction list with status and amount,Usability
+REQ-007,Medium,API returns useful validation errors,Client receives structured error response,API quality
+REQ-008,Medium,Release can be rolled back,Previous version can be restored within target window,Deployment
