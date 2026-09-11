@@ -165,18 +165,3 @@ The project uses five release gates:
 
 The final release decision is documented in `reports/release_signoff.md`.
 
-## Suggested GitHub presentation
-
-Use the repository to demonstrate:
-
-1. **QA strategy** — how testing is planned rather than simply executed.
-2. **Traceability** — every critical requirement maps to test coverage.
-3. **Risk management** — testing effort follows business risk.
-4. **Automation** — API and UI checks run through repeatable scripts.
-5. **Defect analytics** — defect severity, status, leakage, and aging are measurable.
-6. **Release governance** — release decisions are based on explicit quality gates.
-7. **Production thinking** — observability, rollback, smoke validation, and incident readiness are considered.
-
-## Important honesty note
-
-Do not describe this as testing a real banking production system unless you actually did so. On a resume, position it as a **portfolio/simulated end-to-end release quality program** if it was built for demonstration.
